@@ -1,5 +1,7 @@
 # Icon Extractor
 
+![](https://travis-ci.com/beaverden/icon_extractor.svg?branch=master)
+
 Extracts icons of the desired width and height from the executables in a directory
 If there are no icons of such size, no icons will be extracted
 
