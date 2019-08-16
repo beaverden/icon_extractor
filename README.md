@@ -16,6 +16,7 @@ The script loads `bin/icon_extractor.dll` as it's much easier and faster to oper
 ## Examples
 
 `icon_extractor.py path/to/files 32 64` - will extract all icons of the size 32x32 (height is doubled when it comes to resources, apparently)
+
 `icon_extractor.py path/to/files 0 0` - will extract all icons
 
 
