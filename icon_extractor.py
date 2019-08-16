@@ -75,7 +75,7 @@ def process_file(full_path, width, height):
                 size = entry.directory.entries[0].data.struct.Size
                 data = pe.get_memory_mapped_image()[offset:offset+size]
                 # BMP Image resource
-                if data[0] == 0x28:
+                if int(data[0]) == 0x28:
                     try:
                         im = Image.open(io.BytesIO(data))
                         if width == 0 or height == 0 or im.size == (width, height):
